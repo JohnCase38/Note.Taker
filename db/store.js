@@ -1,10 +1,12 @@
-/* class named Store with these methods:
-read()
-write()
-getNotes
-addNote
-removeNote
+class Store{
+    constructor() {
 
+    }
+    read() {return renderActiveNote()}
+    write() {return }
+    getNotes() {}
+    addNote() {}
+    removeNote() {}
+}
 
 module.exports = new Store()
-*/

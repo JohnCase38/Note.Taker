@@ -3,8 +3,8 @@ const store = require("../db/store");
 const fs = require("fs");
 
 router.get('/notes', (req, res) => {
-    store.getNotes()
-    .then() // TODO:  figure out what goes in .then()
+    store.getNotes(req.body)
+    .then((note) => res.json(note))
 })
 
 router.post('/notes', (req, res) => {
