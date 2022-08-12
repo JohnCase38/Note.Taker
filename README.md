@@ -1,1 +1,2 @@
-"# Note.Taker" 
+# Note.Taker
+This is a note taking application that allows the user to draft and save notes and reminders for themselves to be reviewed at a later date. The app stores your notes and organizes them into a list that can be easily accessed from the initial home page. 
